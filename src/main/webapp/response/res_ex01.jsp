@@ -1,0 +1,29 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: wkdqh
+  Date: 2023-06-07
+  Time: 오전 11:08
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+</head>
+<body>
+
+<form action="res_ex01_result.jsp" method="post">
+
+  이름: <input type="text" name = "name"> <br/>
+  나이: <input type="number" name = "age"> <br/>
+
+  <br/>
+  <input type="submit" value= "미성년자 여부 확인"> <br/>
+</form>
+
+
+</body>
+</html>
